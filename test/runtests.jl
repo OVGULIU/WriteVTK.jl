@@ -4,6 +4,10 @@ using WriteVTK
 using Base.Test
 using SHA: sha1
 
+# readstring(filename) -> read(filename, String) for Julia 0.5.
+# Added to Compat in commit f705a0f083 (v0.30.0).
+import Compat: read
+
 const tests = ["multiblock.jl",
                "rectilinear.jl",
                "imagedata.jl",

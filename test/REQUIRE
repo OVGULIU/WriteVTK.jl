@@ -1,1 +1,2 @@
 SHA 0.3.0
+Compat v0.30.0  # readstring -> read in Julia 0.5
